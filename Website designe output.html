@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5502/03_Cloth.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website designe</title>
+    <link rel="stylesheet" href="./Website designe output_files/03_Clothes.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./Website designe output_files/cloth logo.png" alt="" class="logo" height="100px">
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5502/03_Cloth.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5502/03_Cloth.html">product's</a></li>
+                    <li><a href="http://127.0.0.1:5502/03_Cloth.html">Collection's</a></li>
+                    <li><a href="http://127.0.0.1:5502/03_Cloth.html">Category</a></li>
+                    <li><a href="http://127.0.0.1:5502/03_Cloth.html">Order's</a></li>
+
+                </ul>
+            </nav>
+            <img src="http://127.0.0.1:5502/03_Cloth.html" class="cart">
+        </div>
+        <div class="content">
+            <a href="http://127.0.0.1:5502/03_Cloth.html" class="btn">2025 Collections</a>
+            <h1>"To look good<br>one must fell <br>good"</h1>
+            <p>Clothes that are sure to enjoy your winter.!</p>
+            <div class="arrow icons">
+                <img src="./Website designe output_files/forward-button.png" height="50px" width="50px">
+                <img src="./Website designe output_files/undo.png" height="50px" width="50px">
+            </div>
+        </div>
+        <img src="http://127.0.0.1:5502/03_Cloth.html" class="future-img">
+        <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body><!-- Code injected--></html>
